@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #000000, #322d2d);
+  background-size: 120% 120%;
+  animation: gradient-animation 12s ease infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.minha-foto img {
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+.container-conteudo h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.container-botoes button {
+  display: block;
+  margin-top: 1rem;
+  border-radius: 20px;
+  width: 200px;
+  border: 0;
+  background-color: #01a7c2;
+}
+
+.container-botoes button a {
+  display: block;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.container-botoes button a:active {
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container-botoes button a:hover {
+    background-color: #fff;
+  }
+}
