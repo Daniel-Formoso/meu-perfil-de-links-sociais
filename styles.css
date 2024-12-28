@@ -33,6 +33,16 @@ body {
   }
 }
 
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 50px;
+  background-color: #f7f7f717;
+  border-radius: 20px;
+}
+
 .minha-foto img {
   width: 300px;
   margin-bottom: 2rem;
