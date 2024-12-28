@@ -15,7 +15,7 @@ Este é um projeto simples de uma página web para exibir meu perfil pessoal com
 - **CSS3**: Estilização e design responsivo
 
 ## Acessar projeto!
-- [Deploy](https://famous-madeleine-da03a2.netlify.app/quem-somos)
+- [Deploy](https://meus-links-pessoais.netlify.app/)
 
 ## Quer ver outros projetos? Acesse o meu Portfólio ou meu GitHub!
 - [Portfólio](https://meu-site-murex-chi.vercel.app/)
